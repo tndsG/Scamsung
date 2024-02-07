@@ -27,14 +27,15 @@ dependencies() {
 }
 
 variables(){
-	echo -e "\033[1;37m[+] Enter your Device Name : \033[0m\n"
-	read DEVICE_NAME 
+	echo "Device SM-M022G"
+	DEVICE_NAME=M022G
 	BASE_TAR_NAME="Base files - $DEVICE_NAME.tar"
 }
 
 get_link(){
-	echo -e "\033[1;37m[i] Enter your firmware link [from samfw.com]: \n\033[0m"
-	read FIRMWARE_LINK
+	echo "The Link Stuff"
+	FIRMWARE_LINK="https://05-samfw.cloud/v2/IxJCDiMnLgM1JzxANRcGBS44LkENOx4lFzssIDs2ByAzMUEgOzEUQDMQMCMBOyw/ITgHQSM2MwQ7MR0kNAAsJzs2AgsvBzYGMjhBJBILLh8vER4OAQgGFDUbBxY1MCMdNBsNMTUvBT8yJC8rDxsIHR47BhsNAC8zFwgHEjUvPiMeBzMdFxcpHiMbBkIeCzwGHgM8FCMkNDEjCxVACTghHzInDQYuFx8rIwAvJCFAMxE8EQY5NRshDjURPho0ES8kNRYhOR44LwsJEQc5NBsjKyEAPg4hAAYsLjgeLDQRHg4yJTMsMiUNKzwAPh8mGzk5FyUzDTUHQQEuByADISxBIwMnOUANQAokMzYCICMXPjkDFzA1CS8pDTsxHhwzQAZCOzEHHjMsNCsNMT4eODAeHgk7MTkjC0EbODAeIxIwPh4jFgU/MzApPDskMwQvMTY/OAAhKTw/FD01OCBCJicpDR4DM0A1Jy4jIScjFDU7AiEyNgIFPCw8MAMkHhQJLyEdLjYUEQ0vLi8jOAZCIwM0OR4kBUAjJDQAIzkTEw=="
+
 }
 
 directories(){
