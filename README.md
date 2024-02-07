@@ -1,5 +1,10 @@
 # Samsung Firmware Extractor 3.0 - (aka Scamsung)
 
+
+<h1>THIS HAS BEEN MODIFIED TO ONLY WORK WITH M022G with 2023-september securitypatch</h1>
+
+
+
 A simple way to root your Samsung device without wasting data and time... ❤️ <br>
 
 <img src="https://github.com/ravindu644/Scamsung/assets/126038496/17cf89f4-5304-4991-b711-448be2be34e2" width=75% align="center"> 
